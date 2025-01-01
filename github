@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/img/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | AutoTheKat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div>
+                <li><a href="/" class="here"><img src="/img/logo.png" alt="[Home]">AutoTheKat</a></li>
+                <li><a href="/projects" class="dead">Projects</a></li>
+                <li><a href="/about" class="dead">About</a></li>
+                <li><a href="/github" class="acthere">Github</a></li>
+                <li><a href="https://discord.gg/4tEsQsSdUj" class="outbound">Discord</a></li>
+                <li><a href="https://hatch.lol/" rel="noopener noreferrer" target="_blank" class="outbound">Hatch</a></li>  
+                <li><a href="/404">[404]</a></li> 
+            </div>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Github Links</h1>
+        <ul>
+            <li><a href="https://github.com/AutoTheKat" rel="noopener noreferrer" target="_blank">Github Profile (Organization)</a>
+            <li><a href="https://github.com/TheKatHere" rel="noopener noreferrer" target="_blank">Github Profile (Current Account)</a>
+            <li><a href="https://github.com/Autofirejm" rel="noopener noreferrer" target="_blank">Github Profile (Legacy Account)</a>
+            <li><a href="https://github.com/AutoTheKat" rel="noopener noreferrer" target="_blank">Hatch.lol</a>
+        </ul>
+    </div>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="coded.html">Coded with ❤ in VSCode by AutoTheKat</a></li>
+                <li class="Copyright"> All rights reserved - Copyright &copy; 2024 AutoTheKat </li>
+            </ul>
+        </div>
+    </footer>
+</body>
