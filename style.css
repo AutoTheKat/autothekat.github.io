@@ -197,6 +197,7 @@ div.subcontent {
     border: #404 solid 5px;
 
     width: fit-content;
+    min-height: 80pt;
     text-align: left;
     justify-content: center;
 
@@ -220,14 +221,50 @@ div.subcontentcontainer {
     align-items: flex-start;
     flex-wrap: nowrap;
 
-    display: flex;
+    /* display: flex; */
 
 
-    scrollbar-width: thin;
+    scrollbar-width:none;
     overflow-x: scroll;
     scrollbar-track-color: #0000;
     /* Kat had never seen such blasphemy before. */
 }
+div.subcontentcontainer#jasonMargin {
+    gap: 10px;
+    background-color: #ffccff;
+
+    padding: 10px;
+
+    margin: 0px 1pt 10px;
+    border-radius: 10px;
+    border: #404 solid 5px;
+    max-width: 800px;
+
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
+    /* display: flex; */
+
+
+    scrollbar-width:none;
+    overflow-x: scroll;
+    scrollbar-track-color: #0000;
+    /* Kat had never seen such blasphemy before. */
+}
+div.subcontent div#header {
+    padding-bottom: 8.5pt;
+    padding-top: 5pt;
+    margin-left: -10px;
+    margin-top: -2pt;
+}
+div.subcontent div#contentsted_property {
+    padding: 10px;
+    padding-top: 0px;
+    margin: auto;
+}
+
 div.subcontentcontainer span {
     display: flex;
     gap: 10px;
@@ -235,8 +272,32 @@ div.subcontentcontainer span {
     align-items: start;
 }
 
+h2#leftificator_Lol {
+    text-align:left;
+    margin-left: 10pt;
+}
 
-
+li#GETAHHHTAHEER {
+    list-style-type: none;
+}
+li#quieterGETAHHT {
+    font-size: 6pt;
+    color:#8084;
+    list-style-type: none;
+    text-align: center;
+}
+img#emoji {
+    width: 15pt;
+    height: auto;
+    padding: 0pt 5pt;
+    margin-top: 1pt;
+    margin-bottom: -1pt;
+}
+div.subcontent#transient {
+    background-image: url("img/transient.svg");
+    background-size: contain;
+    /* background-blend-mode:; */
+}
 
 
 
