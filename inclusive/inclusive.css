@@ -1,0 +1,158 @@
+/*nav bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #bb22bb;
+    position: fixed;
+    top: 0;
+}
+
+nav ul div {
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+}
+
+nav ul div li a {
+    padding: 10px;
+    border-radius: inherit;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    transition-property: background-color, color, font-weight;
+    transition-duration: .25s;
+}
+
+nav ul div li a img {
+    width: 25px;
+    height: 25px;
+    margin-left: -5px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-weight: 1000;
+}
+
+nav ul div li a:hover {
+    background-color: #ff88ff00;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+nav ul div li a.here {
+    padding: 10px;
+    border-radius: inherit;
+    display: block;
+    color: #ffffff;
+    background: linear-gradient(to right, #bb22bb, #dd33dd, #dd33dd, #dd33dd, #bb22bb) #880088;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    transition-property: color, font-weight;
+    transition-duration: .25s;
+}
+
+nav ul div li a.here:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+nav ul div li a.acthere {
+    padding: 10px;
+    border-radius: inherit;
+    display: block;
+    color: #ffffff;
+    background: linear-gradient(to right, #bb22bb, #ee44ee, #ee44ee, #ee44ee, #bb22bb) #880088;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    transition-property: color, font-weight;
+    transition-duration: .25s;
+}
+
+nav ul div li a.acthere:hover {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+nav ul div li a.dead {
+    text-decoration: line-through;
+    color: #fff8;
+    background-color: #bb22bb;
+}
+
+nav ul div li a.outbound {
+    color: #ffbbff;
+    background-color: #bb22bb;
+}
+
+nav ul div li a.dead:hover {
+    text-decoration: line-through;
+    color: #fff8;
+    background-color: #bb2288;
+}
+
+
+/* footer */
+/* footer {
+    background-color: #880088;
+} */
+footer div {
+    background-color: #880088;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    bottom: 0;
+    font-weight: 900;
+}
+
+footer div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer div ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff88ff;
+}
+
+footer div ul li a {
+    border-radius: inherit;
+    display: block;
+    color: #ffaaff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ffaaff88;
+    transition-property: color, text-decoration-color, font-weight;
+    transition-duration: .25s;
+}
+
+footer div ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #ffffff44;
+    font-weight: 900;
+}
